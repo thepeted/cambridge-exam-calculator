@@ -1,0 +1,532 @@
+{
+	"key": [{
+		"criteriaGroup": "Reading & Writing",
+		"criteriaData": [{
+				"part": "1 - Matching",
+				"max": 5,
+				"step": 1
+			}, {
+				"part": "2 - Multiple Choice",
+				"max": 5,
+				"step": 1
+			}, {
+				"part": "3 - Multiple Choice",
+				"max": 10,
+				"step": 0
+			}, {
+				"part": "4 - Right/Wrong/Doesn't Say",
+				"max": 5,
+				"step": 1
+			}, {
+				"part": "5 - Multiple Choice Cloze",
+				"max": 10,
+				"step": 1
+			}, {
+				"part": "6 - Word Completion",
+				"max": 5,
+				"step": 1
+			}, {
+				"part": "7 - Open Cloze",
+				"max": 10,
+				"step": 1
+			}, {
+				"part": "8 - Information Transfer",
+				"max": 5,
+				"step": 1
+			}, {
+				"part": "9 - Guided Writing",
+				"max": 5,
+				"step": 1
+			}
+
+		]
+	}, {
+		"criteriaGroup": "Listening",
+		"criteriaData": [{
+				"part": "1 - Multiple Choice(discrete)",
+				"max": 5,
+				"step": 1
+			}, {
+				"part": "2 - Matching",
+				"max": 5,
+				"step": 1
+			}, {
+				"part": "3 - Multiple Choice",
+				"max": 5,
+				"step": 1
+			}, {
+				"part": "4 - Gap Fill",
+				"max": 5,
+				"step": 1
+			}, {
+				"part": "5 - Gap Fill",
+				"max": 5,
+				"step": 1
+			}
+
+		]
+	}, {
+		"criteriaGroup": "Speaking",
+		"criteriaData": [{
+			"part": "Grammar & Vocabulary",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Discourse Management",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Pronunciation",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Interactive Communication",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Global Achievement",
+			"max": 5,
+			"step": 0.5
+		}]
+	}],
+	"prelim": [{
+		"criteriaGroup": "Reading",
+		"criteriaData": [{
+			"part": "1 – Multiple-Choice",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "2 – Matching",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "3 – True / False",
+			"max": 10,
+			"step": 1
+		}, {
+			"part": "4 – Multiple Choice",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "5 – Multiple Choice Cloze",
+			"max": 10,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Writing",
+		"criteriaData": [{
+			"part": "1 – Sentence Transformation",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "2 – Communicative Message",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "3 – Content",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "3 – Communicative Achievement",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "3 – Organisation",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "3 – Language",
+			"max": 5,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Listening",
+		"criteriaData": [{
+			"part": "1 – Multiple Choice (discrete)",
+			"max": 7,
+			"step": 1
+		}, {
+			"part": "2 – Multiple Choice",
+			"max": 6,
+			"step": 1
+		}, {
+			"part": "3 – Gap-Fill",
+			"max": 6,
+			"step": 1
+		}, {
+			"part": "4 – True / False",
+			"max": 6,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Speaking",
+		"criteriaData": [{
+			"part": "Grammar & Vocabulary",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Discourse Management",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Pronunciation",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Interactive Communication",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Global Achievement",
+			"max": 5,
+			"step": 0.5
+		}]
+	}],
+	"first": [{
+		"criteriaGroup": "Use of English and Reading",
+		"criteriaData": [{
+			"part": "1 – Multiple-Choice Cloze",
+			"max": 8,
+			"step": 1
+		}, {
+			"part": "2 – Open Cloze",
+			"max": 8,
+			"step": 1
+		}, {
+			"part": "3 – Word Formation",
+			"max": 8,
+			"step": 1
+		}, {
+			"part": "4 – Key Word Transformation",
+			"max": 12,
+			"step": 1
+		}, {
+			"part": "5 – Multiple Choice",
+			"max": 12,
+			"step": 2
+		}, {
+			"part": "6 – Gapped Text",
+			"max": 12,
+			"step": 2
+		}, {
+			"part": "7 – Multiple Matching",
+			"max": 10,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Writing Part 1",
+		"criteriaData": [{
+			"part": "Content",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Communicative Achievement",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Organisation",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Language",
+			"max": 5,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Writing Part 2",
+		"criteriaData": [{
+			"part": "Content",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Communicative Achievement",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Organisation",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Language",
+			"max": 5,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Listening",
+		"criteriaData": [{
+			"part": "1 – Multiple Choice",
+			"max": 8,
+			"step": 1
+		}, {
+			"part": "2 – Sentence Completion",
+			"max": 10,
+			"step": 1
+		}, {
+			"part": "3 – Multiple Matching",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "4 – Multiple Choice",
+			"max": 7,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Speaking",
+		"criteriaData": [{
+			"part": "Grammar & Vocabulary",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Discourse Management",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Pronunciation",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Interactive Communication",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Global Achievement",
+			"max": 5,
+			"step": 0.5
+		}]
+	}],
+	"advanced": [{
+		"criteriaGroup": "Use of English and Reading",
+		"criteriaData": [{
+			"part": "1 – Multiple-Choice Cloze",
+			"max": 8,
+			"step": 1
+		}, {
+			"part": "2 – Open Cloze",
+			"max": 8,
+			"step": 1
+		}, {
+			"part": "3 – Word Formation",
+			"max": 8,
+			"step": 1
+		}, {
+			"part": "4 – Key Word Transformation",
+			"max": 12,
+			"step": 1
+		}, {
+			"part": "5 – Multiple Choice",
+			"max": 12,
+			"step": 2
+		}, {
+			"part": "6 – Cross-Text Multiple Match",
+			"max": 8,
+			"step": 2
+		}, {
+			"part": "7 – Gapped Text",
+			"max": 12,
+			"step": 2
+		}, {
+			"part": "8 – Multiple Matching",
+			"max": 10,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Writing Part 1",
+		"criteriaData": [{
+			"part": "Content",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Communicative Achievement",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Organisation",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Language",
+			"max": 5,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Writing Part 2",
+		"criteriaData": [{
+			"part": "Content",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Communicative Achievement",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Organisation",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Language",
+			"max": 5,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Listening",
+		"criteriaData": [{
+			"part": "1 – Multiple Choice",
+			"max": 6,
+			"step": 1
+		}, {
+			"part": "2 – Sentence Completion",
+			"max": 8,
+			"step": 1
+		}, {
+			"part": "3 – Multiple Choice",
+			"max": 6,
+			"step": 1
+		}, {
+			"part": "4 – Multiple Matching",
+			"max": 10,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Speaking",
+		"criteriaData": [{
+			"part": "Grammatical Resource",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Lexical Resource",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Discourse Management",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Pronunciation",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Interactive Communication",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Global Achievement",
+			"max": 5,
+			"step": 0.5
+		}]
+	}],
+	"prof": [{
+		"criteriaGroup": "Use of English and Reading",
+		"criteriaData": [{
+			"part": "1 – Multiple-Choice Cloze",
+			"max": 8,
+			"step": 1
+		}, {
+			"part": "2 – Open Cloze",
+			"max": 8,
+			"step": 1
+		}, {
+			"part": "3 – Word Formation",
+			"max": 8,
+			"step": 1
+		}, {
+			"part": "4 – Key Word Transformation",
+			"max": 12,
+			"step": 1
+		}, {
+			"part": "5 – Multiple Choice",
+			"max": 12,
+			"step": 2
+		}, {
+			"part": "6 – Gapped Text",
+			"max": 14,
+			"step": 2
+		}, {
+			"part": "7 – Multiple Matching",
+			"max": 10,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Writing Part 1",
+		"criteriaData": [{
+			"part": "Content",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Communicative Achievement",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Organisation",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Language",
+			"max": 5,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Writing Part 2",
+		"criteriaData": [{
+			"part": "Content",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Communicative Achievement",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Organisation",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "Language",
+			"max": 5,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Listening",
+		"criteriaData": [{
+			"part": "1 – Multiple Choice",
+			"max": 6,
+			"step": 1
+		}, {
+			"part": "2 – Sentence Completion",
+			"max": 9,
+			"step": 1
+		}, {
+			"part": "3 – Multiple Choice",
+			"max": 5,
+			"step": 1
+		}, {
+			"part": "4 – Multiple Matching",
+			"max": 10,
+			"step": 1
+		}]
+	}, {
+		"criteriaGroup": "Speaking",
+		"criteriaData": [{
+			"part": "Grammar & Vocabulary",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Discourse Management",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Pronunciation",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Interactive Communication",
+			"max": 5,
+			"step": 0.5
+		}, {
+			"part": "Global Achievement",
+			"max": 5,
+			"step": 0.5
+		}]
+	}]
+
+
+
+}

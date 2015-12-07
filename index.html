@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html ng-app="calculator">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script type="text/javascript" src="scripts/app.js"></script>
+  <script type="text/javascript" src="scripts/services.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <title>Cambridge Exam Scores Calclator (Beta)</title>
+
+</head>
+<body>
+
+  <header class="text-center">
+    <h1>
+      Cambridge Exam Scores Calculator (Beta)
+      <p><small>It's 100% Unofficial!</small></p>
+    </h1>
+  </header>
+
+  <div ng-controller="MainController as main">
+    <div class="container">
+
+      <ul class="nav nav-tabs">
+        <li ng-repeat="(section,val) in main.criteria" ng-click="main.select($index)" ng-class="{'active': $index === main.selectedIndex}"><a href ng-click="main.selectedSection = section">{{main.getNiceSectionName(section)}}</a></li> 
+      </ul>
+
+      <section ng-repeat="(section,val) in main.criteria" class="{{section}} group-wrapper" ng-show="main.selectedSection === section">
+        <div class="row">
+          
+          <div class="scores-input col-sm-6">
+            <form>
+              <fieldset ng-repeat="group in main.criteria[section]" class="form-horizontal">
+                <legend class="text-center">{{::group.criteriaGroup}}</legend>
+                <div ng-repeat="data in group.criteriaData" class="form-group form-group-sm">
+                  <label for="{{section}}-{{group}}-{{$index}}" class="col-sm-8 control-label">{{::data.part}}</label>
+                  <div class="col-sm-4">
+                    <input ng-model="data.score" id="{{section}}-{{group}}-{{$index}}" class="form-control" type="number" min="0" max="{{data.max}}" step="{{data.step}}" >
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div><!-- end col -->
+
+          <div class="results col-sm-6">
+            <h4>Score Breakdown</h4>
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Paper</th>
+                  <th>%</th>
+                  <th>Score</th>
+                  <th>Grade</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="results in main.totalScheme[section]">
+                  <td>{{::results.sectionName}}</td>
+                  <td>{{results.sectionFunc().percentage}}</td>
+                  <td>{{results.sectionFunc().threshold}}</td>
+                  <td>{{results.sectionFunc().grade}}</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h4>Overall Result</h4>
+            <table class="table table-bordered overall">
+              <thead>
+                <tr>
+                  <th>Scale</th>
+                  <th>%</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{{main.totalScheme.overAll(section).threshold}}</td>
+                  <td>{{main.totalScheme.overAll(section).percentage}}
+                  </td>
+                  <td>{{main.totalScheme.overAll(section).grade}}</td>
+                </tr>
+              </tbody>
+            </table>
+            <button ng-click="main.doResetSection(section)" class="btn btn-primary"><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Reset Section</button>
+          </div><!-- col end-->
+
+        </div><!-- row end -->
+      </section>
+      <div class="foot text-center">
+        <p>Made by <a href="http://twitter.com/peterdaily">@thepeted</a>. This site is not affiliated with Cambridge English.</p>
+          <p>Report issues <a href="http://github.com/thepeted">via GitHub</a>.
+        Released under the <a href="http://opensource.org/licenses/MIT">MIT Licence</a> December 2015</p> 
+      </div>
+    </div><!-- container end -->
+  </div><!-- controller end -->
+</body>
+
+</html>
