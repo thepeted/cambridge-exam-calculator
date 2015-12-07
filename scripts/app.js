@@ -14,7 +14,7 @@ angular.module('calculator').controller('MainController', ['$http', 'totalsRules
     vm.selectedIndex = 0;
     vm.select = selected;
 
-    $http.get('/data/scoring.json').success(function(data) {
+    $http.get('https://github.com/thepeted/cambridge-exam-calculator/blob/gh-pages/data/scoring.json').success(function(data) {
       vm.criteria = data;
       totalsRules(vm);
       totalsHelpers(vm);
