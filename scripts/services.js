@@ -290,12 +290,22 @@ angular.module('calculator').factory('totalsHelpers', function() {
     
     vm.totalScheme.overAll = function(level) {
       var percTotal = 0;
-      vm.totalScheme[level].forEach(function(el) {
+      var avPerc;
+      
+      if (level === 'key') {
+        avPerc = (((vm.totalScheme.key[0].sectionFunc().percentage * 2) + 
+          vm.totalScheme.key[1].sectionFunc().percentage + vm.totalScheme.key[2].sectionFunc().percentage) / 400)
+           * 100
+      } else {
+        vm.totalScheme[level].forEach(function(el) {
         percTotal += el.sectionFunc().percentage;
-      });
-      var avPerc = percTotal / vm.totalScheme[level].length
+        });
+        avPerc = percTotal / vm.totalScheme[level].length
+        }
+
       return vm.convert(avPerc, level);
     };
+
     vm.convert = function(score, level) {
       var perc = Math.round(score);
       if (perc < 32) {
