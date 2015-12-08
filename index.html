@@ -24,7 +24,7 @@
   </header>
 
   <div ng-controller="MainController as main">
-    <div class="container">
+    <div class="container-fluid">
 
       <ul class="nav nav-tabs">
         <li ng-repeat="(section,val) in main.criteria" ng-click="main.select($index)" ng-class="{'active': $index === main.selectedIndex}"><a href ng-click="main.selectedSection = section">{{main.getNiceSectionName(section)}}</a></li> 
