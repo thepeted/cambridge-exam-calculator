@@ -92,10 +92,10 @@ form {
 
 @media (max-width: 450px) {
 	 .nav li {
-		font-size: 0.9em;
+		font-size: 0.8em;
   }
 
 	.nav>li>a {
-		padding: 10px;
+		padding: 5px;
 	}
 }
