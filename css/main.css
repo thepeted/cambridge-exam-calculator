@@ -48,32 +48,31 @@ input.ng-invalid {
 	border-top: 1px solid #ddd;
 }
 
+form {
+	  border-color: #ddd;
+}
+
 .key form, .key th {
-  border-color: #c9c2b5;
-  background: #ede5d5;
+  background: #C4DDDE;
 }
 
 .prelim form, .prelim th {
-  border-color: #b7a2a1;
-  background: #e2cdcc;
+  background: #F1C5BC;
 }
 
 
 .first form, .first th {
-  border-color: #6e8988;
-  background: #a0b2b1;
+  background: #E0EECB;
 }
 
 
 .advanced form, .advanced th {
-  border-color: #6e8988;
-  background: #c5dbd9;
+  background: #BADBED;
 }
 
 
 .prof form, .prof th {
-  border-color: #3a3a3c;
-  background: #b7b7cc;
+  background: #B7B5D6;
 }
 
 @media (min-width: 768px) {
