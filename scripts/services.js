@@ -294,7 +294,7 @@ angular.module('calculator').factory('totalsHelpers', function() {
         percTotal += el.sectionFunc().percentage;
       });
       var avPerc = percTotal / vm.totalScheme[level].length
-      return vm.convert(avPerc, 'first');
+      return vm.convert(avPerc, level);
     };
     vm.convert = function(score, level) {
       var perc = Math.round(score);
