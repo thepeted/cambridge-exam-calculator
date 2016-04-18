@@ -1,0 +1,24 @@
+{
+  "name": "cambridge-eng-calc",
+  "version": "1.0.0",
+  "description": "Client side web app to calculate live totals from user-entered Cambridge English Exam Scores and convert the totals to grades using the Cambridge English Scale.",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepeted/cambridge-exam-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thepeted/cambridge-exam-calculator/issues"
+  },
+  "homepage": "https://github.com/thepeted/cambridge-exam-calculator#readme"
+}
