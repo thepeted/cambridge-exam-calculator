@@ -4,6 +4,9 @@ angular.module('calculator').controller('MainController', ['$http', 'totalsRules
   function($http, totalsRules, totalsHelpers) {
 
     var vm = this;
+    
+    // initialise scrollY tracking for results directive
+    vm.scroll = 0;
 
     vm.criteria = [];
     vm.totalScheme = [];
