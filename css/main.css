@@ -51,6 +51,8 @@ input.ng-invalid {
 	position: fixed;
     top: 0;
     left: 50%;
+    width: 49%;
+
 }
 
 form {
@@ -80,6 +82,15 @@ form {
   background: #B7B5D6;
 }
 
+@media (max-width: 1200px) {
+	
+	.fixed {
+		width: 48.5%;
+	}
+	
+}
+
+
 @media (max-width: 768px) {
   .nav li {
 	font-size: 1.2em;
@@ -94,6 +105,7 @@ form {
 		position: relative;
 		left: auto;
 		top: auto;
+		width: auto;
 	}
 	
 	form {
